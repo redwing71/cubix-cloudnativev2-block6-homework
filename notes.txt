@@ -1,0 +1,13 @@
+
+A két féle app indulási logjának szűrése a grafanában: 
+  grafana-filter.png
+  
+A két app indulási ideje között nagy a különbség a native javára:
+  jvm-app-startup-time.png
+  native-app-startup-time.png
+
+Ez alapján a gyorsabb deployement miatt cloud környezetben a native alkalmazást választanám!
+
+A postman hívások szűrése a grafanában, illetve a hozzá tartozó grafana logok:
+  grafana-filter-postman-calls.png
+  grafana-log-postman-calls.png
