@@ -4,6 +4,10 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "springboot3native"
 
+configMap:
+  enabled: true
+  as: file
+  
 ingress:
   enabled: true
   hosts:
@@ -15,6 +19,8 @@ ingress:
 env:
 - name: SERVER_TOMCAT_THREADS_MAX
   value: 50
+- name: SPRING_CONFIG_IMPORT
+  value: /config/application.properties
 
 resources:
   limits:
