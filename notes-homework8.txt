@@ -1,0 +1,12 @@
+GitHub: https://github.com/redwing71/cubix-cloudnativev2-block6-homework
+
+Grafana Prometheus filter:
+  grafana-prometheus-traffic-lod-filter.png
+  
+Grafana Prometheus diagram:
+  grafana-prometheus-traffic-lod-diagram.png
+  
+Grafana trace képernyő (Tempo):
+  grafana-trace.png
+  
+Az AppB a lassabb, szinte a teljes hívás idejét az AppB teszi ki.  
